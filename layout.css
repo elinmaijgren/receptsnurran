@@ -1,0 +1,133 @@
+/*class navbar kontrollerar huvudmenyn*/
+.navbar {
+    background-color: #8fbc8f;
+    overflow: hidden;
+}
+
+/*Denna stylar själva loggan som sitter till vänster om menyn*/
+.navbar img {
+    width: 100px;
+    height: 78px;
+    float: left;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+/*Denna används för att mer specifikt styla texten i menyn*/
+.navbar-text {
+    float: left;
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+    color: #3e453e;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+/*denna stylar texten "ReceptSnurran" på förstasidan på bilden*/
+.textlogo {
+    background-color:#8fbc8f;
+    border: 2px solid #000;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 300px;
+}
+
+/*Det här är ett ID för enbart texten "Hjälp" i huvudmenyn då jag ville ha den till höger*/
+#hjalp {
+    float: right;
+}
+
+/*Denna stylar huvudmeny texten när man håller musen över den*/
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: #506750;
+}
+
+/*Skapar bakgrundsbilden på förstasidan samt storleken*/
+.Fp {
+   background-image: url(bilder/Variety-fruits-vegetables.jpeg);
+   padding: 200px 500px;
+   color: #ffffff;
+}
+
+/*Stylar första delen på sidan "Matlagningstips" som innehåller youtube videos*/
+.part1 {
+    float: left;
+    background-color: #fffaf0;
+    margin: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 17px;
+    border: 2px solid #000;
+}
+
+/*Stylar andra delen på samma sida*/
+.part2 {
+    float: right;
+    background-color: #fffaf0;
+    margin-right: 19px;
+    margin-top: 18px;
+    border: 2px solid #000;
+    width: 560px;
+    padding-left: 20px;
+   
+}
+
+/*Stylar hela bodyn med samma stil och bakgrundsfärg*/
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: #DFF5E1;
+}
+
+/*Stylar alla rubriker så att de blir centrerade*/
+.headline {
+    text-align: center;
+}
+
+/*Stylar de flesta listor*/
+.list {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    transition: transform .2s;
+}
+
+/*Används för att de ska zoomas in när man håller musen över listan*/
+.list:hover{
+    transform: scale(1.1);
+}
+
+/*Stylar själva bilderna över listorna med rundade kanter och skugga*/
+.list img {
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*Används för att ha en anna styling på recepten i kategorin "lättlagat"*/
+.receptlist {
+    float: right;
+}
+
+/*Justerar storlek och stil på de bilder jag har som favoritrecept*/
+.favoritrecept img {
+    height: 140px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+/*Styling på själva footern*/
+.footer {
+    padding: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #8fbc8f;
+    clear: both;
+}
